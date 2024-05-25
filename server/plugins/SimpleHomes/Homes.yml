@@ -1,1 +1,66 @@
-
+david_star:
+  home:
+    world: world
+    X: -138.26667398302882
+    Y: 72.0
+    Z: 351.22388411144635
+  netherportal:
+    world: world
+    X: -179.91107771574028
+    Y: 59.0
+    Z: 302.5519272850814
+  workingnether:
+    world: world
+    X: -1126.21451127312
+    Y: 49.0
+    Z: 1786.313646462797
+  devinbase:
+    world: world
+    X: -155.69999998807907
+    Y: 54.0
+    Z: 360.30000001192093
+Zombie_niggerr:
+  cave:
+    world: world
+    X: -251.30000001192082
+    Y: 11.0
+    Z: 312.3397853659563
+  home:
+    world: world
+    X: -166.80143671559918
+    Y: 65.0
+    Z: 395.47558415253474
+Nigger's:
+  house:
+    world: world
+    X: -166.37418287168583
+    Y: 65.0
+    Z: 395.51972976509876
+Devin_J:
+  Home:
+    world: world
+    X: -154.69999998807907
+    Y: 26.0
+    Z: 389.69999998807907
+  cave:
+    world: world
+    X: -119.62447913497311
+    Y: 17.0
+    Z: 468.14147361644837
+  village:
+    world: world
+    X: 254.300000011921
+    Y: 67.0
+    Z: 684.6999999880791
+hot_wood:
+  <home>:
+    world: world
+    X: -137.77196800409888
+    Y: 72.0
+    Z: 348.17587530931536
+Melbourne_47:
+  Melbourne_33:
+    world: world
+    X: -157.85864952793284
+    Y: 67.0
+    Z: 357.396060213703

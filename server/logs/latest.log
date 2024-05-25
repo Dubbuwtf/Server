@@ -1,0 +1,648 @@
+[16:36:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:36:06] [Server thread/INFO]: Loading properties
+[16:36:06] [Server thread/INFO]: Default game type: SURVIVAL
+[16:36:06] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:36:07] [Server thread/INFO]: Debug logging is disabled
+[16:36:07] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:36:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[16:36:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:07] [Server thread/INFO]: Data value allowed items: 
+[16:36:07] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[16:36:07] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[16:36:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[16:36:07] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[16:36:07] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[16:36:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[16:36:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[16:36:07] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[16:36:07] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:36:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:36:07] [Server thread/INFO]: Generating keypair
+[16:36:07] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:36:07] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:36:07] [Server thread/INFO]: Using default channel type
+[16:36:07] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:36:07] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:36:07] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:36:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:36:07] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:36:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:36:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:36:07] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:36:07] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:36:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:36:07] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:36:07] [Server thread/INFO]: Preparing level "world"
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:36:07] [Server thread/INFO]: Mob Spawn Range: 4
+[16:36:07] [Server thread/INFO]: Anti X-Ray: true
+[16:36:07] [Server thread/INFO]: 	Engine Mode: 1
+[16:36:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:36:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:36:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:36:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:36:07] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:07] [Server thread/INFO]: Structure Info Saving: true
+[16:36:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:36:07] [Server thread/INFO]: Max Entity Collisions: 8
+[16:36:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:36:07] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:07] [Server thread/INFO]: View Distance: 4
+[16:36:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:36:07] [Server thread/INFO]: Clear tick list: false
+[16:36:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:36:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:36:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:36:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:36:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:36:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:36:07] [Server thread/INFO]: Water over lava flow speed: 5
+[16:36:07] [Server thread/INFO]: Fix TNT cannons: false
+[16:36:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:36:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:36:07] [Server thread/INFO]: World async lighting: false
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:36:07] [Server thread/INFO]: Mob Spawn Range: 4
+[16:36:07] [Server thread/INFO]: Anti X-Ray: true
+[16:36:07] [Server thread/INFO]: 	Engine Mode: 1
+[16:36:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:36:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:36:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:36:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:36:07] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:07] [Server thread/INFO]: Structure Info Saving: true
+[16:36:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:36:07] [Server thread/INFO]: Max Entity Collisions: 8
+[16:36:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:36:07] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:07] [Server thread/INFO]: View Distance: 4
+[16:36:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:36:07] [Server thread/INFO]: Clear tick list: false
+[16:36:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:36:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:36:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:36:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:36:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:36:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:36:07] [Server thread/INFO]: Water over lava flow speed: 5
+[16:36:07] [Server thread/INFO]: Fix TNT cannons: false
+[16:36:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:36:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:36:07] [Server thread/INFO]: World async lighting: false
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:36:07] [Server thread/INFO]: Mob Spawn Range: 4
+[16:36:07] [Server thread/INFO]: Anti X-Ray: true
+[16:36:07] [Server thread/INFO]: 	Engine Mode: 1
+[16:36:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:36:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:36:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:36:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:36:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:36:07] [Server thread/INFO]: Random Lighting Updates: false
+[16:36:07] [Server thread/INFO]: Structure Info Saving: true
+[16:36:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:36:07] [Server thread/INFO]: Max Entity Collisions: 8
+[16:36:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:36:07] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:36:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:07] [Server thread/INFO]: View Distance: 4
+[16:36:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:36:07] [Server thread/INFO]: Clear tick list: false
+[16:36:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:36:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:36:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:36:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:36:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:36:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:36:07] [Server thread/INFO]: Water over lava flow speed: 5
+[16:36:07] [Server thread/INFO]: Fix TNT cannons: false
+[16:36:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:36:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:36:07] [Server thread/INFO]: World async lighting: false
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:36:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:36:07] [Server thread/INFO]: Preparing start region for level 0 (Seed: 787637563652163916)
+[16:36:08] [Server thread/INFO]: Preparing spawn area: 30%
+[16:36:09] [Server thread/INFO]: Preparing spawn area: 82%
+[16:36:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: 787637563652163916)
+[16:36:11] [Server thread/INFO]: Preparing spawn area: 50%
+[16:36:11] [Server thread/INFO]: Preparing start region for level 2 (Seed: 787637563652163916)
+[16:36:12] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:36:12] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[16:36:12] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[16:36:12] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:36:12] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:36:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:36:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:36:12] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:36:12] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:36:12] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:36:12] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:36:12] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:36:12] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:36:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:36:12] [Server thread/INFO]: Done (5.568s)! For help, type "help" or "?"
+[16:36:13] [Server thread/INFO]: Timings Reset
+[16:36:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[16:36:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[16:36:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[16:40:17] [Thread-7/INFO]: UUID of player UUsername69 is 36c05df0-321c-3a8e-8fc3-e6888e7a67a5
+[16:40:18] [Server thread/INFO]: UUsername69[/[0:0:0:0:0:0:0:1]:36286] logged in with entity id 725 at ([world]-100.5572262607935, 69.0, 255.10169390670632)
+[16:40:39] [Thread-8/INFO]: UUID of player BigWIG is 8b4126f8-d4cc-37d3-897f-52fc6051adfc
+[16:40:39] [Server thread/INFO]: BigWIG[/[0:0:0:0:0:0:0:1]:55204] logged in with entity id 1424 at ([world]-308.69999998807907, 68.0, 280.2660165901453)
+[16:40:39] [Thread-9/INFO]: Disconnecting com.mojang.authlib.GameProfile@34d66153[id=4b9e1750-448f-3085-8fe0-0f1a0ced51ed,name=judeypants,properties={textures=[com.mojang.authlib.properties.Property@6e0b2556], isEaglerPlayer=[com.mojang.authlib.properties.Property@6a34bc4f]},legacy=false] (/[0:0:0:0:0:0:0:1]:55210): [LoginSecurity] This account is registered under the name Judeypants, please log in as such.
+[16:40:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@34d66153[id=4b9e1750-448f-3085-8fe0-0f1a0ced51ed,name=judeypants,properties={textures=[com.mojang.authlib.properties.Property@6e0b2556], isEaglerPlayer=[com.mojang.authlib.properties.Property@6a34bc4f]},legacy=false] (/[0:0:0:0:0:0:0:1]:55210) lost connection: [LoginSecurity] This account is registered under the name Judeypants, please log in as such.
+[16:40:48] [Thread-10/INFO]: Disconnecting com.mojang.authlib.GameProfile@da222de[id=4b9e1750-448f-3085-8fe0-0f1a0ced51ed,name=judeypants,properties={textures=[com.mojang.authlib.properties.Property@2412a955], isEaglerPlayer=[com.mojang.authlib.properties.Property@63013876]},legacy=false] (/[0:0:0:0:0:0:0:1]:44502): [LoginSecurity] This account is registered under the name Judeypants, please log in as such.
+[16:40:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@da222de[id=4b9e1750-448f-3085-8fe0-0f1a0ced51ed,name=judeypants,properties={textures=[com.mojang.authlib.properties.Property@2412a955], isEaglerPlayer=[com.mojang.authlib.properties.Property@63013876]},legacy=false] (/[0:0:0:0:0:0:0:1]:44502) lost connection: [LoginSecurity] This account is registered under the name Judeypants, please log in as such.
+[16:41:14] [Thread-12/INFO]: UUID of player Judeypants is 2ce83039-da4e-3f7f-88d2-11083eba34c8
+[16:41:14] [Server thread/INFO]: Judeypants[/[0:0:0:0:0:0:0:1]:35106] logged in with entity id 1816 at ([world]-178.21487069369886, 65.0, 360.02834812548406)
+[16:41:20] [Async Chat Thread - #0/INFO]: <BigWIG> jude[m
+
+[16:41:33] [Async Chat Thread - #0/INFO]: <Judeypants> what[m
+
+[16:41:38] [Async Chat Thread - #0/INFO]: <BigWIG> where u[m
+
+[16:41:48] [Server thread/INFO]: Judeypants issued server command: /tpa BigWIG
+[16:41:53] [Async Chat Thread - #0/INFO]: <Judeypants> accept[m
+
+[16:41:53] [Server thread/INFO]: UUsername69 was slain by BigWIG
+[16:41:56] [Server thread/INFO]: UUsername69 issued server command: /back
+[16:42:00] [Server thread/INFO]: BigWIG issued server command: /tpaccept
+[16:42:04] [Server thread/INFO]: BigWIG was slain by UUsername69
+[16:42:19] [Thread-13/INFO]: UUID of player Zombie_niggerr is 20e598c9-2051-374f-ae9f-98210d3ccf49
+[16:42:19] [Server thread/INFO]: Zombie_niggerr[/[0:0:0:0:0:0:0:1]:50086] logged in with entity id 2436 at ([world]-169.32257461526024, 57.0, 409.8653218703064)
+[16:42:24] [Server thread/INFO]: Zombie_niggerr lost connection: Disconnected
+[16:42:24] [Server thread/INFO]: Zombie_niggerr left the game.
+[16:43:30] [Server thread/INFO]: BigWIG lost connection: Disconnected
+[16:43:30] [Server thread/INFO]: BigWIG left the game.
+[16:43:42] [Server thread/INFO]: Judeypants tried to swim in lava
+[16:43:57] [Server thread/INFO]: Judeypants issued server command: /tpa UUsername69
+[16:44:01] [Server thread/INFO]: UUsername69 issued server command: /tpaccept
+[16:44:12] [Server thread/INFO]: Judeypants was slain by UUsername69
+[16:44:17] [Server thread/INFO]: Judeypants issued server command: /back
+[16:44:25] [Server thread/INFO]: Judeypants issued server command: /back
+[16:44:29] [Server thread/INFO]: Judeypants issued server command: /back
+[16:44:44] [Server thread/INFO]: UUsername69 lost connection: Disconnected
+[16:44:44] [Server thread/INFO]: UUsername69 left the game.
+[16:44:47] [Server thread/INFO]: Judeypants lost connection: Disconnected
+[16:44:47] [Server thread/INFO]: Judeypants left the game.
+[16:46:26] [Thread-14/INFO]: UUID of player Zombie_niggerr is 20e598c9-2051-374f-ae9f-98210d3ccf49
+[16:46:26] [Server thread/INFO]: Zombie_niggerr[/[0:0:0:0:0:0:0:1]:46092] logged in with entity id 3153 at ([world]-169.32257461526024, 57.0, 409.8653218703064)
+[16:47:28] [Thread-15/INFO]: UUID of player UUsername69 is 36c05df0-321c-3a8e-8fc3-e6888e7a67a5
+[16:47:28] [Server thread/INFO]: UUsername69[/[0:0:0:0:0:0:0:1]:48290] logged in with entity id 3252 at ([world]-139.69999998807907, 66.72804832773508, 352.69999998807907)
+[16:47:34] [Thread-16/INFO]: UUID of player developer_david is 69fb8506-acc4-3c96-ac2b-1905fa3415fb
+[16:47:34] [Server thread/INFO]: developer_david[/[0:0:0:0:0:0:0:1]:48292] logged in with entity id 3261 at ([world]-165.8975692076881, 65.0, 394.30000001192093)
+[16:48:14] [Server thread/INFO]: developer_david was slain by Zombie_niggerr
+[16:48:31] [Async Chat Thread - #1/INFO]: <developer_david> mb[m
+
+[16:48:34] [Server thread/INFO]: UUsername69 lost connection: Disconnected
+[16:48:34] [Server thread/INFO]: UUsername69 left the game.
+[16:48:40] [Async Chat Thread - #1/INFO]: <developer_david> he sarted attacking me[m
+
+[16:48:40] [Thread-17/INFO]: UUID of player UUsername69 is 36c05df0-321c-3a8e-8fc3-e6888e7a67a5
+[16:48:40] [Server thread/INFO]: UUsername69[/[0:0:0:0:0:0:0:1]:58050] logged in with entity id 3385 at ([world]-143.05051793664023, 72.0, 349.1022342520957)
+[16:48:43] [Server thread/INFO]: UUsername69 lost connection: Disconnected
+[16:48:43] [Server thread/INFO]: UUsername69 left the game.
+[16:49:17] [Async Chat Thread - #1/INFO]: <developer_david> can i have some[m
+
+[16:49:23] [Async Chat Thread - #1/INFO]: <Zombie_niggerr> ?[m
+
+[16:49:33] [Async Chat Thread - #1/INFO]: <developer_david> can in have something[m
+
+[16:50:01] [Async Chat Thread - #1/INFO]: <Zombie_niggerr> t[m
+
+[16:50:01] [Async Chat Thread - #1/INFO]: <developer_david> how do i feed him[m
+
+[16:50:11] [Async Chat Thread - #1/INFO]: <Zombie_niggerr> you cant[m
+
+[16:50:16] [Async Chat Thread - #1/INFO]: <Zombie_niggerr> only i can[m
+
+[16:50:20] [Thread-18/INFO]: UUID of player UUsername69 is 36c05df0-321c-3a8e-8fc3-e6888e7a67a5
+[16:50:20] [Server thread/INFO]: UUsername69[/[0:0:0:0:0:0:0:1]:36906] logged in with entity id 3541 at ([world]-143.05051793664023, 72.0, 349.1022342520957)
+[16:50:21] [Async Chat Thread - #1/INFO]: <developer_david> oh alr[m
+
+[16:50:27] [Async Chat Thread - #1/INFO]: <Zombie_niggerr> now get out please[m
+
+[16:50:29] [Async Chat Thread - #1/INFO]: <developer_david> let me have some wood tho[m
+
+[16:50:35] [Thread-19/INFO]: UUID of player BigWIG is 8b4126f8-d4cc-37d3-897f-52fc6051adfc
+[16:50:35] [Server thread/INFO]: BigWIG[/[0:0:0:0:0:0:0:1]:48696] logged in with entity id 3551 at ([world]-165.90360178361755, 63.0, 385.10857781138503)
+[16:50:42] [Server thread/INFO]: BigWIG lost connection: Disconnected
+[16:50:42] [Server thread/INFO]: BigWIG left the game.
+[16:51:32] [Server thread/INFO]: developer_david lost connection: Disconnected
+[16:51:32] [Server thread/INFO]: developer_david left the game.
+[16:51:41] [Thread-20/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[16:51:41] [Server thread/INFO]: Onichaan[/[0:0:0:0:0:0:0:1]:52006] logged in with entity id 3611 at ([world]-101.5, 68.0, 256.5)
+[16:51:48] [Server thread/INFO]: Onichaan issued server command: /tpr
+[16:52:20] [Thread-21/INFO]: UUID of player david_star is fc557543-d84c-3b24-8350-0b13386f2e49
+[16:52:20] [Server thread/INFO]: david_star[/[0:0:0:0:0:0:0:1]:45756] logged in with entity id 3741 at ([world]-304.4135231699483, 64.0, 284.2143137007071)
+[16:52:27] [Async Chat Thread - #2/INFO]: <UUsername69> wsg david[m
+
+[16:52:34] [Async Chat Thread - #2/INFO]: <david_star> hi[m
+
+[16:52:37] [Server thread/INFO]: david_star issued server command: /home home
+[16:52:40] [Server thread/INFO]: Onichaan was slain by david_star
+[16:52:45] [Async Chat Thread - #2/INFO]: <Onichaan> fuck u[m
+
+[16:52:47] [Server thread/INFO]: Onichaan has just earned the achievement [Taking Inventory]
+[16:52:48] [Async Chat Thread - #2/INFO]: <david_star> WHO IS THAT[m
+
+[16:52:52] [Async Chat Thread - #2/INFO]: <Zombie_niggerr> david[m
+
+[16:52:57] [Async Chat Thread - #2/INFO]: <Zombie_niggerr> perfect timing[m
+
+[16:53:00] [Async Chat Thread - #2/INFO]: <UUsername69> onichaan bro chiil[m
+
+[16:53:00] [Async Chat Thread - #2/INFO]: <Onichaan> hi david[m
+
+[16:53:02] [Async Chat Thread - #2/INFO]: <Zombie_niggerr> i just finished[m
+
+[16:53:09] [Server thread/INFO]: david_star issued server command: /ban Onichaan
+[16:53:09] [Server thread/INFO]: Onichaan lost connection: You are banned from this server.
+[16:53:09] [Server thread/INFO]: Onichaan left the game.
+[16:53:09] [Server thread/INFO]: [david_star: Banned player Onichaan]
+[16:53:09] [Server thread/WARN]: handleDisconnection() called twice
+[16:53:09] [Server thread/INFO]: Zombie_niggerr issued server command: /gamemode 0
+[16:53:09] [Server thread/INFO]: [Zombie_niggerr: Set own game mode to Survival Mode]
+[16:53:11] [Server thread/INFO]: UUsername69 lost connection: Disconnected
+[16:53:11] [Server thread/INFO]: UUsername69 left the game.
+[16:53:13] [Thread-22/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[16:53:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@60e57825[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@3d0cf6ff], isEaglerPlayer=[com.mojang.authlib.properties.Property@6089125b]},legacy=false] (/[0:0:0:0:0:0:0:1]:34052): You are banned from this server!
+Reason: Banned by an operator.
+[16:53:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@60e57825[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@3d0cf6ff], isEaglerPlayer=[com.mojang.authlib.properties.Property@6089125b]},legacy=false] (/[0:0:0:0:0:0:0:1]:34052) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[16:54:40] [Async Chat Thread - #3/INFO]: <david_star> that gigga was breaking into my stuff[m
+
+[16:54:45] [Async Chat Thread - #3/INFO]: <david_star> who even is that guy[m
+
+[16:54:48] [Async Chat Thread - #3/INFO]: <Zombie_niggerr> idk[m
+
+[16:54:51] [Server thread/INFO]: david_star issued server command: /pardon Onichaan
+[16:54:51] [Server thread/INFO]: [david_star: Unbanned player Onichaan]
+[16:55:12] [Async Chat Thread - #3/INFO]: <Zombie_niggerr> ima build a nether portal[m
+
+[16:55:15] [Thread-23/INFO]: UUID of player hot_wood is 2e71cf87-348f-3ee5-b76f-c7caa536c1bd
+[16:55:15] [Server thread/INFO]: hot_wood[/[0:0:0:0:0:0:0:1]:40206] logged in with entity id 4031 at ([world]-164.31500570875247, 63.0, 385.51191838449193)
+[16:55:21] [Async Chat Thread - #3/INFO]: <david_star> hi will[m
+
+[16:55:26] [Async Chat Thread - #3/INFO]: <david_star> someone was griefing me[m
+
+[16:55:31] [Async Chat Thread - #3/INFO]: <david_star> i cought them[m
+
+[16:56:48] [Async Chat Thread - #4/INFO]: <hot_wood> hi[m
+
+[16:56:50] [Async Chat Thread - #4/INFO]: <Zombie_niggerr> hi[m
+
+[16:56:54] [Async Chat Thread - #4/INFO]: <david_star> hi[m
+
+[16:56:59] [Async Chat Thread - #4/INFO]: <david_star> someone was griefing me[m
+
+[16:57:03] [Async Chat Thread - #4/INFO]: <david_star> i cought them tho[m
+
+[16:57:08] [Server thread/INFO]: hot_wood issued server command: /tpa david_star
+[16:57:11] [Server thread/INFO]: david_star issued server command: /tpaccept
+[16:57:12] [Async Chat Thread - #4/INFO]: <Zombie_niggerr> same[m
+
+[16:57:20] [Async Chat Thread - #4/INFO]: <Zombie_niggerr> they tried killing my dog[m
+
+[16:57:27] [Async Chat Thread - #4/INFO]: <hot_wood> wdym[m
+
+[16:57:31] [Async Chat Thread - #4/INFO]: <david_star> ima go listen to music[m
+
+[16:57:36] [Async Chat Thread - #4/INFO]: <david_star> make sure nobody grief[m
+
+[16:57:37] [Server thread/INFO]: Zombie_niggerr lost connection: Disconnected
+[16:57:37] [Server thread/INFO]: Zombie_niggerr left the game.
+[16:57:41] [Async Chat Thread - #4/INFO]: <hot_wood> ok[m
+
+[16:57:44] [Async Chat Thread - #4/INFO]: <david_star> and u can mine[m
+
+[16:57:46] [Async Chat Thread - #4/INFO]: <david_star> do what u want[m
+
+[16:57:55] [Async Chat Thread - #4/INFO]: <david_star> ill make sure server no shut down[m
+
+[16:58:00] [Async Chat Thread - #4/INFO]: <hot_wood> can i hve some food[m
+
+[16:58:17] [Async Chat Thread - #4/INFO]: <hot_wood> thanks[m
+
+[16:58:21] [Async Chat Thread - #4/INFO]: <david_star> i got 14 dimonds[m
+
+[16:58:28] [Async Chat Thread - #4/INFO]: <david_star> i need chest back[m
+
+[16:58:30] [Async Chat Thread - #4/INFO]: <hot_wood> how[m
+
+[16:58:35] [Async Chat Thread - #4/INFO]: <david_star> and crafting table[m
+
+[16:58:39] [Async Chat Thread - #4/INFO]: <david_star> so get that when im gone[m
+
+[16:58:42] [Async Chat Thread - #4/INFO]: <david_star> from ahmed[m
+
+[16:58:46] [Server thread/INFO]: david_star lost connection: Disconnected
+[16:58:46] [Server thread/INFO]: david_star left the game.
+[17:03:11] [Thread-24/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[17:03:11] [Server thread/INFO]: Onichaan[/[0:0:0:0:0:0:0:1]:49168] logged in with entity id 4763 at ([world]-112.69999998807907, 65.16610926093821, 311.73554546938465)
+[17:03:16] [Server thread/INFO]: Onichaan lost connection: Disconnected
+[17:03:16] [Server thread/INFO]: Onichaan left the game.
+[17:04:12] [Server thread/INFO]: Usage: /time <set|add|query> <value>
+[17:04:33] [Server thread/INFO]: hot_wood issued server command: /home <home>
+[17:05:48] [Thread-25/INFO]: UUID of player david_star is fc557543-d84c-3b24-8350-0b13386f2e49
+[17:05:49] [Server thread/INFO]: david_star[/[0:0:0:0:0:0:0:1]:60426] logged in with entity id 5654 at ([world]-139.69999998807907, 64.64582372557457, 352.4489499881756)
+[17:06:17] [Async Chat Thread - #5/INFO]: <david_star> did u make that sign[m
+
+[17:06:23] [Async Chat Thread - #5/INFO]: <david_star> onichaan joined[m
+
+[17:06:24] [Async Chat Thread - #5/INFO]: <hot_wood> what sigh[m
+
+[17:06:27] [Async Chat Thread - #5/INFO]: <david_star> i see[m
+
+[17:06:33] [Async Chat Thread - #5/INFO]: <david_star> hes the grifer[m
+
+[17:06:54] [Server thread/INFO]: hot_wood issued server command: /tpa david_star
+[17:06:57] [Server thread/INFO]: david_star issued server command: /tpaccept
+[17:07:10] [Async Chat Thread - #5/INFO]: <david_star> there was a sign here that said hi[m
+
+[17:07:35] [Async Chat Thread - #5/INFO]: <hot_wood> no i was thinking you did it[m
+
+[17:07:38] [Async Chat Thread - #5/INFO]: <david_star> oh[m
+
+[17:08:42] [Async Chat Thread - #6/INFO]: <david_star> wait[m
+
+[17:08:47] [Thread-26/INFO]: UUID of player ViggYeer161 is 501f9e0b-4bbe-3c24-9355-cec4ebd27bef
+[17:08:47] [Server thread/INFO]: ViggYeer161[/[0:0:0:0:0:0:0:1]:51498] logged in with entity id 6321 at ([world]-116.5, 68.0, 258.5)
+[17:08:53] [Async Chat Thread - #6/INFO]: <david_star> who that[m
+
+[17:09:07] [Server thread/INFO]: ViggYeer161 issued server command: /idk
+[17:09:18] [Server thread/INFO]: ViggYeer161 lost connection: Login timed out!
+[17:09:18] [Server thread/INFO]: ViggYeer161 left the game.
+[17:09:18] [Server thread/WARN]: handleDisconnection() called twice
+[17:09:19] [Server thread/INFO]: david_star issued server command: /tp ViggYeer161 david_star
+[17:09:19] [Server thread/INFO]: [david_star: The entity UUID provided is in an invalid format]
+[17:09:22] [Async Chat Thread - #6/INFO]: <hot_wood> where did are other chests go[m
+
+[17:09:25] [Thread-27/INFO]: UUID of player ViggYeer161 is 501f9e0b-4bbe-3c24-9355-cec4ebd27bef
+[17:09:25] [Server thread/INFO]: ViggYeer161[/[0:0:0:0:0:0:0:1]:59034] logged in with entity id 6735 at ([world]-116.3374671998519, 68.0, 258.97915374232906)
+[17:09:36] [Thread-28/INFO]: UUID of player Zombie_niggerr is 20e598c9-2051-374f-ae9f-98210d3ccf49
+[17:09:36] [Server thread/INFO]: Zombie_niggerr[/[0:0:0:0:0:0:0:1]:44660] logged in with entity id 6736 at ([world]-174.43324311799873, 59.0, 402.5737389307947)
+[17:09:56] [Server thread/INFO]: ViggYeer161 lost connection: Login timed out!
+[17:09:56] [Server thread/INFO]: ViggYeer161 left the game.
+[17:09:56] [Server thread/WARN]: handleDisconnection() called twice
+[17:10:01] [Thread-29/INFO]: UUID of player ViggYeer161 is 501f9e0b-4bbe-3c24-9355-cec4ebd27bef
+[17:10:01] [Server thread/INFO]: ViggYeer161[/[0:0:0:0:0:0:0:1]:45102] logged in with entity id 6830 at ([world]-116.24150351681014, 68.0, 258.9990184326732)
+[17:10:44] [Server thread/INFO]: david_star issued server command: /tp ViggYeer161 david_star
+[17:10:44] [Server thread/INFO]: [david_star: Teleported ViggYeer161 to david_star]
+[17:10:49] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:10:55] [Server thread/INFO]: david_star issued server command: /tpa Zombie_niggerr
+[17:11:01] [Server thread/INFO]: Zombie_niggerr issued server command: /tpaccept
+[17:11:13] [Server thread/INFO]: david_star issued server command: /home home
+[17:11:17] [Async Chat Thread - #7/INFO]: <Zombie_niggerr> thanks[m
+
+[17:11:20] [Async Chat Thread - #7/INFO]: <david_star> luv u to[m
+
+[17:11:41] [Server thread/INFO]: ViggYeer161 has just earned the achievement [Taking Inventory]
+[17:12:00] [Server thread/INFO]: david_star issued server command: /tp ViggYeer161 david_star
+[17:12:00] [Server thread/INFO]: [david_star: Teleported ViggYeer161 to david_star]
+[17:12:21] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:29] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:33] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:35] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:38] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:40] [Async Chat Thread - #8/INFO]: <david_star> WHO ARE U[m
+
+[17:12:42] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:44] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:46] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:50] [Server thread/INFO]: Zombie_niggerr issued server command: /home home
+[17:12:52] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:56] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:12:59] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:13:02] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:13:05] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:13:08] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:13:09] [Thread-31/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[17:13:09] [Server thread/INFO]: Onichaan[/[0:0:0:0:0:0:0:1]:46492] logged in with entity id 7304 at ([world]-112.69999998807907, 64.0, 311.73554546938465)
+[17:13:11] [Async Chat Thread - #8/INFO]: <david_star> who are u[m
+
+[17:13:13] [Server thread/INFO]: david_star issued server command: /home home
+[17:13:24] [Async Chat Thread - #8/INFO]: <david_star> WHO ARE YOU[m
+
+[17:13:25] [Server thread/INFO]: ViggYeer161 issued server command: /bro if u let me talk then
+[17:13:29] [Async Chat Thread - #8/INFO]: <david_star> ahmed go to your base[m
+
+[17:13:30] [Async Chat Thread - #8/INFO]: <ViggYeer161> be[m
+
+[17:13:32] [Async Chat Thread - #8/INFO]: <david_star> hey might greif[m
+
+[17:13:35] [Async Chat Thread - #8/INFO]: <Onichaan> BRO JUST WAIT[m
+
+[17:13:39] [Server thread/INFO]: Onichaan was shot by Skeleton
+[17:14:02] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> dam[m
+
+[17:14:06] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> good job[m
+
+[17:14:12] [Server thread/INFO]: david_star issued server command: /ban Onichaan
+[17:14:12] [Server thread/INFO]: Onichaan lost connection: You are banned from this server.
+[17:14:12] [Server thread/INFO]: Onichaan left the game.
+[17:14:12] [Server thread/INFO]: [david_star: Banned player Onichaan]
+[17:14:12] [Server thread/WARN]: handleDisconnection() called twice
+[17:14:12] [Async Chat Thread - #8/INFO]: <hot_wood> do u like it[m
+
+[17:14:15] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> yes[m
+
+[17:14:17] [Async Chat Thread - #8/INFO]: <david_star> he was a hacker[m
+
+[17:14:23] [Server thread/INFO]: david_star issued server command: /home home
+[17:14:24] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> oo[m
+
+[17:14:27] [Thread-32/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[17:14:27] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6bb7db8e[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@7feab79b], isEaglerPlayer=[com.mojang.authlib.properties.Property@33582857]},legacy=false] (/[0:0:0:0:0:0:0:1]:48280): You are banned from this server!
+Reason: Banned by an operator.
+[17:14:27] [Server thread/INFO]: com.mojang.authlib.GameProfile@6bb7db8e[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@7feab79b], isEaglerPlayer=[com.mojang.authlib.properties.Property@33582857]},legacy=false] (/[0:0:0:0:0:0:0:1]:48280) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[17:14:27] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> ok[m
+
+[17:14:33] [Async Chat Thread - #8/INFO]: <david_star> do you think hs from this school[m
+
+[17:14:36] [Thread-33/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[17:14:36] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@231aa61c[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@7c9db523], isEaglerPlayer=[com.mojang.authlib.properties.Property@785a23b8]},legacy=false] (/[0:0:0:0:0:0:0:1]:56430): You are banned from this server!
+Reason: Banned by an operator.
+[17:14:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@231aa61c[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@7c9db523], isEaglerPlayer=[com.mojang.authlib.properties.Property@785a23b8]},legacy=false] (/[0:0:0:0:0:0:0:1]:56430) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[17:14:37] [Async Chat Thread - #8/INFO]: <david_star> i might ip ban him[m
+
+[17:14:49] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> if he griefs[m
+
+[17:15:11] [Server thread/INFO]: ViggYeer161 issued server command: /tpa Zombie_niggerr
+[17:15:14] [Server thread/INFO]: Zombie_niggerr issued server command: /tpaccept
+[17:15:41] [Async Chat Thread - #8/INFO]: <david_star> will[m
+
+[17:15:43] [Async Chat Thread - #8/INFO]: <david_star> while im gone[m
+
+[17:15:44] [Server thread/INFO]: ViggYeer161 lost connection: Disconnected
+[17:15:44] [Server thread/INFO]: ViggYeer161 left the game.
+[17:15:52] [Async Chat Thread - #8/INFO]: <david_star> make bookshelf blocks for ahmeds enchantment table[m
+
+[17:15:57] [Thread-34/INFO]: UUID of player ViggYeer161 is 501f9e0b-4bbe-3c24-9355-cec4ebd27bef
+[17:15:57] [Server thread/INFO]: ViggYeer161[/[0:0:0:0:0:0:0:1]:46518] logged in with entity id 7736 at ([world]-164.44584260456637, 65.0, 394.4404794217347)
+[17:16:21] [Server thread/INFO]: david_star issued server command: /tp ViggYeer161 david_star
+[17:16:21] [Server thread/INFO]: [david_star: Teleported ViggYeer161 to david_star]
+[17:16:23] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:16:32] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:16:41] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> david thats aram[m
+
+[17:16:44] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:16:50] [Async Chat Thread - #8/INFO]: <david_star> who is[m
+
+[17:16:57] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:16:58] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> viger[m
+
+[17:17:03] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> vigg[m
+
+[17:17:12] [Server thread/INFO]: hot_wood lost connection: Disconnected
+[17:17:12] [Server thread/INFO]: hot_wood left the game.
+[17:17:21] [Server thread/INFO]: david_star issued server command: /home home
+[17:17:44] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:17:49] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> chill[m
+
+[17:17:54] [Async Chat Thread - #8/INFO]: <david_star> i hate aram[m
+
+[17:18:04] [Thread-35/INFO]: UUID of player hot_wood is 2e71cf87-348f-3ee5-b76f-c7caa536c1bd
+[17:18:04] [Server thread/INFO]: hot_wood[/[0:0:0:0:0:0:0:1]:39242] logged in with entity id 8141 at ([world]-182.43188783088476, 64.0, 401.6302533386312)
+[17:18:05] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> leg[m
+
+[17:18:06] [Thread-36/INFO]: UUID of player Onichaan is 6a9666ec-73d9-3824-9d2a-4fd82697224b
+[17:18:06] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@12469744[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@354d8096], isEaglerPlayer=[com.mojang.authlib.properties.Property@1f31afcb]},legacy=false] (/[0:0:0:0:0:0:0:1]:39254): You are banned from this server!
+Reason: Banned by an operator.
+[17:18:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@12469744[id=6a9666ec-73d9-3824-9d2a-4fd82697224b,name=Onichaan,properties={textures=[com.mojang.authlib.properties.Property@354d8096], isEaglerPlayer=[com.mojang.authlib.properties.Property@1f31afcb]},legacy=false] (/[0:0:0:0:0:0:0:1]:39254) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[17:18:26] [Async Chat Thread - #8/INFO]: <david_star> did u finsh the enchant room[m
+
+[17:18:30] [Async Chat Thread - #8/INFO]: <Zombie_niggerr> yes[m
+
+[17:18:56] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:19:02] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:19:34] [Server thread/INFO]: ViggYeer161 was slain by hot_wood
+[17:19:42] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:20:11] [Server thread/INFO]: ViggYeer161 has just earned the achievement [Getting Wood]
+[17:20:18] [Server thread/INFO]: david_star issued server command: /tpa ViggYeer161
+[17:20:38] [Server thread/INFO]: david_star issued server command: /tp david_star ViggYeer161
+[17:20:38] [Server thread/INFO]: [david_star: Teleported david_star to ViggYeer161]
+[17:20:41] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:21:02] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:21:36] [Server thread/INFO]: david_star issued server command: /tp david_star ViggYeer161
+[17:21:36] [Server thread/INFO]: [david_star: Teleported david_star to ViggYeer161]
+[17:21:46] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:21:51] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:21:53] [Async Chat Thread - #9/INFO]: <hot_wood> ahmed[m
+
+[17:22:05] [Async Chat Thread - #9/INFO]: <hot_wood> look[m
+
+[17:22:07] [Async Chat Thread - #9/INFO]: <Zombie_niggerr> ?[m
+
+[17:22:28] [Async Chat Thread - #9/INFO]: <hot_wood> i cleaned up the area[m
+
+[17:22:31] [Async Chat Thread - #9/INFO]: <david_star> GOOD[m
+
+[17:22:35] [Async Chat Thread - #9/INFO]: <Zombie_niggerr> good job[m
+
+[17:22:41] [Async Chat Thread - #9/INFO]: <hot_wood> thanks[m
+
+[17:22:46] [Server thread/INFO]: david_star issued server command: /tp david_star ViggYeer161
+[17:22:46] [Server thread/INFO]: [david_star: Teleported david_star to ViggYeer161]
+[17:22:48] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:22:49] [Server thread/INFO]: hot_wood lost connection: Disconnected
+[17:22:49] [Server thread/INFO]: hot_wood left the game.
+[17:22:56] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:23:06] [Server thread/INFO]: ViggYeer161 was slain by david_star
+[17:23:22] [Async Chat Thread - #9/INFO]: <ViggYeer161> bro stop i aint do nohting[m
+
+[17:23:30] [Server thread/INFO]: ViggYeer161 issued server command: /back
+[17:23:33] [Async Chat Thread - #9/INFO]: <david_star> y do u think i care[m
+
+[17:23:45] [Async Chat Thread - #9/INFO]: <david_star> say sorry[m
+
+[17:23:51] [Async Chat Thread - #9/INFO]: <ViggYeer161> for what[m
+
+[17:23:54] [Thread-37/INFO]: UUID of player UUsername69 is 36c05df0-321c-3a8e-8fc3-e6888e7a67a5
+[17:23:54] [Server thread/INFO]: UUsername69[/[0:0:0:0:0:0:0:1]:51930] logged in with entity id 9598 at ([world]-165.6964165168942, 64.0, 389.09848090800466)
+[17:23:57] [Async Chat Thread - #9/INFO]: <david_star> for being aram[m
+
+[17:24:06] [Async Chat Thread - #9/INFO]: <ViggYeer161> sorry for being me i guess[m
+
+[17:24:13] [Async Chat Thread - #9/INFO]: <UUsername69> WSG DAVID[m
+
+[17:24:17] [Async Chat Thread - #9/INFO]: <david_star> hiyo[m
+
+[17:24:33] [Server thread/INFO]: david_star issued server command: /tpa UUsername69
+[17:24:41] [Server thread/INFO]: UUsername69 issued server command: /tpaccept
+[17:24:54] [Async Chat Thread - #9/INFO]: <david_star> y r u hungry[m
+
+[17:25:22] [Server thread/INFO]: david_star issued server command: /see UUsername69 inv
